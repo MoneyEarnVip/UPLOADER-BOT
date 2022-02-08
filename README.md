@@ -1,4 +1,4 @@
-## [@UPLOADERrXROBOT](https://t.me/UploaderrXRobot)
+## [UPLOADER_X_ROBOT](https://t.me/UploaderrXRobot)
 ---
 
 Telegram RoBot to Upload Links.
