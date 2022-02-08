@@ -1,4 +1,4 @@
-## [@UPLOADER_X_BOT](https://t.me/uploader_x_bot)
+## [@UPLOADERrXROBOT](https://t.me/UploaderrXRobot)
 ---
 
 Telegram RoBot to Upload Links.
@@ -25,7 +25,7 @@ https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 heroku/python
 ```
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Clinton-Abraham/UPLOADER-BOT/issues/14#issuecomment-1021253536)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/MoneyEarnVip/UPLOADER-BOT/issues/14#issuecomment-1021253536)
 
 ## BOT COMMANDS
 
@@ -45,7 +45,6 @@ heroku/python
 * [Dan Tès](https://t.me/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
 * [Yoily](https://t.me/YoilyL) for his [UploaditBot](https://telegram.dog/UploaditBot)
 * [@AbirHasan2005](https://t.me/AbirHasan2005) for his [database.py](https://github.com/AbirHasan2005/VideoCompress/blob/main/bot/database/database.py)
-* [@DC4_WARRIOR](https://t.me/Space_X_bots)
-* [@xgorn](https://t.me/xgorn)
+* [TAMILAN X BOTS](https://t.me/Tamilanxbots)
 #### LICENSE
 - GPLv3
