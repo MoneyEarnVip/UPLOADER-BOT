@@ -45,7 +45,7 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🤖 ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/Tamilanbots"),
+                    InlineKeyboardButton("🤖 ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/Tamilanxbots"),
                     InlineKeyboardButton("ᴛᴀᴍɪʟ ᴍᴏᴠɪᴇs 🎬", url="https://t.me/DisneyHDLinks"),
                 ],
              [
