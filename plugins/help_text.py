@@ -56,6 +56,19 @@ async def help_user(bot, update):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+       elif query.data == "about":
+        buttons = [[
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/TamilanXBots')
+        ], [
+            InlineKeyboardButton('🏠 Home', callback_data='start'),
+            InlineKeyboardButton('🔐 Close', callback_data='close_data')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=translation.ABOUT_TEXT.format(temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
         ),
         reply_to_message_id=update.message_id
     )
