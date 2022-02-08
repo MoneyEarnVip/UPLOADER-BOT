@@ -57,10 +57,8 @@ async def start(bot, update):
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.START_TEXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+            text=translation.START_TEXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        ),
-        reply_to_message_id=update.message_id
-    )
+       
