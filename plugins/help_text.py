@@ -34,17 +34,12 @@ async def help_user(bot, update):
         reply_to_message_id=update.message_id
     )
 
+     elif query.data == "pages":
+        await query.answer()
+    elif query.data == "start":
+        buttons = [[
 
-@Clinton.on_message(filters.private & filters.command(["start"]))
-async def start(bot, update):
-    # logger.info(update)
-    await AddUser(bot, update)
-    await bot.send_message(
-        chat_id=update.chat.id,
-        text=Translation.START_TEXT.format(update.from_user.mention),
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
+          
                     InlineKeyboardButton("🤖 ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/Tamilanxbots"),
                     InlineKeyboardButton("ᴛᴀᴍɪʟ ᴍᴏᴠɪᴇs 🎬", url="https://t.me/DisneyHDLinks"),
                 ],
@@ -61,4 +56,8 @@ async def start(bot, update):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+        ),
+        reply_to_message_id=update.message_id
+    )
+
        
