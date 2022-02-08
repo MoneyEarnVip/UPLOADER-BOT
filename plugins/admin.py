@@ -1,5 +1,5 @@
 
-# (c) @AbirHasan2005 | Modifieded By : @DC4_WARRIOR
+# (c) @AbirHasan2005 | Modifieded By : @TamilXbots
 
 
 from pyrogram import Client as Clinton
