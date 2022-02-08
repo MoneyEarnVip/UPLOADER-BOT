@@ -33,7 +33,7 @@ URL | filename | username | password"""
    ғɪʟᴇ   - ɢɪᴠᴇ ғɪʟᴇ ᴡɪᴛʜᴏᴜᴛ sᴄʀᴇᴇɴsʜᴏᴛs
 
 ɪғ ʙᴏᴛ ᴅɪᴅɴ'ᴛ ʀᴇsᴘᴏɴᴅ, ᴄᴏɴᴛᴀᴄᴛ [@ᴛᴀᴍɪʟᴀɴxʙᴏᴛs](https://t.me/TamilanXBots)"""
-    ABOUT_TXT = """✯ Mʏ ɴᴀᴍᴇ : [ᴜᴘʟᴏᴀᴅᴇʀ x ʙᴏᴛ](https://t.me/UploaderrXRobot)
+    ABOUT_TEXT = """✯ Mʏ ɴᴀᴍᴇ : [ᴜᴘʟᴏᴀᴅᴇʀ x ʙᴏᴛ](https://t.me/UploaderrXRobot)
 
 ✯ Cʜᴀɴɴᴇʟ : [ᴛᴀᴍɪʟᴀɴ x ʙᴏᴛs](https://t.me/TamilanXBots)
 
