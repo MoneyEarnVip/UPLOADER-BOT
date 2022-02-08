@@ -25,7 +25,7 @@ https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 heroku/python
 ```
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/MoneyEarnVip/UPLOADER-BOT/issues/14#issuecomment-1021253536)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MoneyEarnVip/UPLOADER-BOT)
 
 ## BOT COMMANDS
 
