@@ -45,12 +45,15 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "Source code ⚡", url="https://github.com/MoneyEarnVip/UPLOADER-BOT"
-                    ),
-                    InlineKeyboardButton("Project Channel 👨🏻‍💻", url="https://t.me/TamilanXbots"),
+                    InlineKeyboardButton("🤖 ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/Tamilanbots"),
+                    InlineKeyboardButton("ᴛᴀᴍɪʟ ᴍᴏᴠɪᴇs 🎬", url="https://t.me/DisneyHDLinks"),
                 ],
-                [InlineKeyboardButton("Developer 👨‍⚖️", url="https://t.me/Tamilanbots")],
+             [
+                    InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="About"),
+                    InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help"),
+                 ],
+              [
+                    InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="Close")]
             ]
         ),
         reply_to_message_id=update.message_id
