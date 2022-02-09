@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K | Modifieded By : @TamilanXbots
+# (c) Shrimadhav U K | Modifieded By : @DC4_WARRIOR
 
 # the logging things
 import logging
@@ -249,20 +249,19 @@ File Size: {}""".format(url, humanbytes(total_length))
                     estimated_total_time = elapsed_time + time_to_completion
                     try:
                         current_message = """**Download Status**
-
 ╭──────DᴏᴡɴʟᴏᴀᴅɪɴG──────⍟
 │
-├🗂️ Sɪᴢᴇ :   ∼  {}
+├ 🔗 Uʀʟ : {}
 │
-├📱 Pʀᴏɢʀᴇꜱꜱ : {}
+├🗂️ Sɪᴢᴇ :  {}
 │
 ├ ✅ Dᴏɴᴇ : {}
 │
 ├⏱️ Eᴛᴀ : {}
 │
 ╰─────────[ ⚡ ]─────────⍟""".format(
+    url,
     humanbytes(total_length),
-    humanbytes(percentage),
     humanbytes(downloaded),
     TimeFormatter(estimated_total_time)
 )
