@@ -228,8 +228,8 @@ async def download_coroutine(bot, session, url, file_name, chat_id, message_id, 
             chat_id,
             message_id,
             text="""Initiating Download
-File Name: {}
-File Size: {}""".format(file_name, humanbytes(total_length))
+URL: {}
+File Size: {}""".format(url, humanbytes(total_length))
         )
         with open(file_name, "wb") as f_handle:
             while True:
@@ -261,7 +261,6 @@ File Size: {}""".format(file_name, humanbytes(total_length))
 ├⏱️ Eᴛᴀ : {}
 │
 ╰─────────[ ⚡ ]─────────⍟""".format(
-    url,
     humanbytes(total_length),
     humanbytes(percentage),
     humanbytes(downloaded),
