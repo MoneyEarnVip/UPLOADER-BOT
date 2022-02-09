@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """👋 Hᴇʟʟᴏ , {}♡
+    START_TEXT = """👋 Hᴇʟʟᴏ , {} ♡
 Tʜɪꜱ ɪꜱ ᴘᴏᴡᴇʀꜰᴜʟ ᴜʀʟ ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ.
 
 Pʀᴇꜱꜱ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ...
@@ -51,3 +51,8 @@ URL | filename | username | password"""
 
 ✯Pᴏᴡᴇʀᴇᴅ ʙʏ : [@ᴅɪsɴᴇʏʜᴅʟɪɴᴋs](https://t.me/DisneyHDLinks)"""
 
+     SOURCE_TXT = """<b>NOTE:</b>
+ʜᴇʏ {} ♡︎
+
+• ᴜᴘʟᴏᴀᴅᴇʀ x ʙᴏᴛ ɪs ᴀ ᴄʟᴏsᴇᴅ sᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
+• ᴄᴏɴᴛᴀᴄᴛ ᴛᴀᴍɪʟᴀɴ x ʙᴏᴛs ᴏɴʟʏ ғᴏʀ ʀᴇᴘᴏʀᴛɪɴɢ ʙᴜɢs.
