@@ -59,8 +59,8 @@ async def start(bot, update):
        reply_to_message_id=update.message_id
     )
 
-        @Clinton.on_message(filters.private & filters.command(["start"]))
-async def start(bot, update):
+        @Clinton.on_message(filters.private & filters.command(["About"]))
+async def About(bot, update):
     # logger.info(update)
     await AddUser(bot, update)
     await bot.send_message(
