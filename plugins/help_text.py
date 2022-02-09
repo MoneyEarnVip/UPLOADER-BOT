@@ -53,31 +53,8 @@ async def start(bot, update):
                     InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help"),
                  ],
               [
-                    InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="Close")]
+                    InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close_data")]
             ]
             ),
        reply_to_message_id=update.message_id
-    )
-
-        @Clinton.on_message(filters.private & filters.command(["About"]))
-async def About(bot, update):
-    # logger.info(update)
-    await AddUser(bot, update)
-    await bot.send_message(
-        chat_id=update.chat.id,
-        text=Translation.ABOUT_TEXT.format(update.from_user.mention),
-        reply_markup=InlineKeyboardMarkup(
-        
-       
-         [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TamilanXBots')
-        ], [
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔐 Close', callback_data='close_data')
-        ]]
-        
-        ),
-        reply_to_message_id=update.message_id
-    )
-
-       
+    
