@@ -34,10 +34,15 @@ async def help_user(bot, update):
         reply_to_message_id=update.message_id
     )
 
-     elif query.data == "pages":
-        await query.answer()
-    elif query.data == "start":
-        buttons = [[
+     @Clinton.on_message(filters.private & filters.command(["start"]))
+async def start(bot, update):
+    # logger.info(update)
+    await AddUser(bot, update)
+    await bot.send_message(
+        chat_id=update.chat.id,
+        text=Translation.START_TEXT.format(update.from_user.mention),
+        reply_markup=InlineKeyboardMarkup(
+       [[
 
           
                     InlineKeyboardButton("🤖 ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/Tamilanxbots"),
@@ -50,25 +55,27 @@ async def help_user(bot, update):
               [
                     InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="Close")]
             ]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=translation.START_TEXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )
-       elif query.data == "about":
-        buttons = [[
+            ),
+       reply_to_message_id=update.message_id
+    )
+
+        @Clinton.on_message(filters.private & filters.command(["start"]))
+async def start(bot, update):
+    # logger.info(update)
+    await AddUser(bot, update)
+    await bot.send_message(
+        chat_id=update.chat.id,
+        text=Translation.ABOUT_TEXT.format(update.from_user.mention),
+        reply_markup=InlineKeyboardMarkup(
+        
+       
+         [[
             InlineKeyboardButton('🤖 Updates', url='https://t.me/TamilanXBots')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=translation.ABOUT_TEXT.format(temp.B_NAME),
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )
+        
         ),
         reply_to_message_id=update.message_id
     )
